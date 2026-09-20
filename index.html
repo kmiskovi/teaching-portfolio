@@ -5,25 +5,27 @@
         <meta name="viewport" content="width=device-widtch" />
         <title>Kylie's Teaching Portfolio</title>
         <link href="styles/style.css" rel="stylesheet" />
+        /* this is supposed to be adding a favicon to the tab but it doesn't work
+        <link rel="icon" href="/images/icon.png" />
     </head>
-    <body>
-        <center>
+    <body class="body-margin">
             <!-- heading that stays the same between all sheets -->
-            <h2>Kylie Rose Miskovic, PharmD</h2>
-            <div class="navbar">
-                <a class="button" href="index.html">Home </a>
-                <a class="button" href="teaching-philosophy.html">Teaching Philosophy </a>
-                <a class="button" href="evidence-of-teaching.html">Evidence of Teaching </a>
-                <a class="button" href="curriculum-vitae.html">Curriculum Vitae </a>
-                <a class="button" href="contact.html">Contact </a>
-            </div>
+            <header class="top-banner">
+                <h1>Kylie Rose Miskovic, PharmD</h1>
+                <nav class="navbar">
+                    <a class="button" href="index.html">Home </a>
+                    <a class="button" href="teaching-philosophy.html">Teaching Philosophy </a>
+                    <a class="button" href="evidence-of-teaching.html">Evidence of Teaching </a>
+                    <a class="button" href="curriculum-vitae.html">Curriculum Vitae </a>
+                    <a class="button" href="contact.html">Contact </a>
+                </nav>
+            </header>
             <!-- unique content starts here -->
-        </center>
-        <div class="content-wrapper">
-            <center>
-                <h1>Teaching Portfolio</h1>
-            </center>
-            <div class="content-body--left">
+        <main class="content-wrapper">
+            <header>
+                <h2>Teaching Portfolio</h2>
+            </header>
+            <section class="content-body--left">
                 <img src="images/grad-photo.JPEG" alt="Photo of a blonde woman in a Purdue graduation gown leaning aganist a column." />
                 <p>
                     Hello! Welcome to my teaching portfolio.
@@ -31,7 +33,7 @@
                     my PGY1 Acute Care residency at Ascension St. Vincent in
                     Indianapolis, IN.
                 </p>
-            </div>
-        </div>
+            </section>
+        </main>
     </body>
 </html> 
